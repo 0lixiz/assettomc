@@ -19,4 +19,4 @@ Sources:
 </p>
 
 ---
-Copyright 2021 <a href="https://discord.gg/xd5VuMRduy" target="_BLANK">EvoniaMc</a>. All rights reserved.
+Copyright 2021 <a href="" target="_BLANK">AssettoMcc</a>. All rights reserved.
