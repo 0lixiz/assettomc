@@ -1,13 +1,13 @@
 {
-  "name": "paladiumlauncher",
-  "version": "0.0.1-beta.8",
-  "productName": "Paladium Launcher",
-  "description": "Paladium Launcher",
-  "author": "Paladium",
+  "name": "assettomclauncher",
+  "version": "0.0.1",
+  "productName": "AssettoMc Launcher",
+  "description": "AssettoMc Launcher",
+  "author": "0lixiz",
   "license": "AGPL-3.0",
-  "homepage": "https://paladium-pvp.fr/",
+  "homepage": "https://github.com/0lixiz/assettomc",
   "bugs": {
-    "url": "https://paladium-pvp.fr/index.php?forums/probl%C3%A8me-de-launcher.10/"
+    "url": "https://github.com/0lixiz/assettomc"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chaika9/paladiumlauncher.git"
+    "url": "git+https://github.com/0lixiz/assettomc.git"
   }
 }

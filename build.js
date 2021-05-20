@@ -1,6 +1,6 @@
 /**
- * Paladium Launcher - https://github.com/Chaika9/paladiumlauncher
- * Copyright (C) 2019 Paladium
+ * AssettoMc Launcher - https://github.com/Chaika9/AssettoMclauncher
+ * Copyright (C) 2019 AssettoMc
  */
 
 const builder = require('electron-builder');
@@ -27,10 +27,10 @@ function getCurrentPlatform() {
 builder.build( {
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'paladiumlauncher',
-        productName: 'Paladium Launcher',
+        appId: 'assettomclauncher',
+        productName: 'AssettoMc Launcher',
         artifactName: '${productName}.${ext}',
-        copyright: 'Copyright © 2019 Paladium',
+        copyright: 'Copyright © 2019 AssettoMc',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -60,9 +60,9 @@ builder.build( {
         linux: {
             target: 'AppImage',
             maintainer: 'Chaika9',
-            vendor: 'Paladium',
-            synopsis: 'Paladium Launcher',
-            description: 'Paladium Launcher',
+            vendor: 'AssettoMc',
+            synopsis: 'AssettoMc Launcher',
+            description: 'AssettoMc Launcher',
             category: 'Game'
         },
         compression: 'maximum',
